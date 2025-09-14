@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+margin: 0;
+scroll-behavior: smooth;
+list-style-type: none;
+text-decoration: none;
+}
+.green{
+color: green;
+}
+.handles svg{
+    height: 1.5rem;
+}
+.bg-green{
+    background-color: green;
+}
+.border-green{
+    border: 1px solid green;
+}
+.container-fluid{
+    padding: 0rem 2.5rem;
+}
+/* From Uiverse.io by vinodjangid07 */
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: .5s;
+  background-color: #fff;
+}
+
+.bars {
+  width: 100%;
+  height: 3px;
+  background-color: green;
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: .8s;
+}
+
+#bar1,
+#bar3 {
+  width: 70%;
+}
+
+#checkbox:checked+.toggle .bars {
+  position: absolute;
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle {
+  transition-duration: .5s;
+  transform: rotate(180deg);
+}
+/* desktop view */
+@media screen and (min-width:768px) {
+    h1{
+    font-size: 3.5rem;
+    }
+    .hero-section{
+        background-image: url('./photos/smiley-mother-holding-up-baby-min.jpg');
+        background-size: cover;
+        height: 32rem !important;
+        background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+    }
+    .s-box1{
+         background-image: url('./photos/school-items-green-background-min.jpg');
+        background-size: cover;
+        height: 20rem !important;
+        width: 100%;
+           background-blend-mode: overlay;
+        background-color: rgba(4, 24, 1, 0.767);
+    }
+.s-box2{
+ background-image: url('./photos/close-up-digital-tablet-with-blank-screen-color-pencils-clay-tube-marker-dark-green-background-min.jpg');
+        background-size: cover;
+        height: 20rem !important;
+        width: 100%;
+           background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+
+}
+.s-box3{
+ background-image: url('./photos/sl_062323_60550_25-min.jpg');
+        background-size: cover;
+        height: 20rem !important;
+        width: 100%;
+           background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+
+}
+.s-box4{
+ background-image: url('./photos/copy-space-organic-fruits-smoothie-min.jpg');
+        background-size: cover;
+        height: 20rem !important;
+        width: 100%;
+        background-position:  right;
+   background-blend-mode: overlay;
+        background-color: rgba(4, 24, 1, 0.767);
+        
+}
+}
+/* mobile view */
+@media screen and (max-width:768px) {
+    .container-fluid{
+    padding: 0rem 2rem;
+}
+        h1{
+    font-size: 3rem;
+    }
+    .hero-section{
+        background-image: url('./photos/smiley-mother-holding-up-baby-min.jpg');
+        background-size: cover;
+        height: 35rem !important;
+        background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+    }
+    .s-box1{
+         background-image: url('./photos/school-items-green-background-min.jpg');
+        background-size: cover;
+        height: 10rem !important;
+        width: 100%;
+           background-blend-mode: overlay;
+        background-color: rgba(4, 24, 1, 0.767);
+    }
+.s-box2{
+ background-image: url('./photos/close-up-digital-tablet-with-blank-screen-color-pencils-clay-tube-marker-dark-green-background-min.jpg');
+        background-size: cover;
+        height: 10rem !important;
+        width: 100%;
+           background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+
+}
+.s-box3{
+ background-image: url('./photos/sl_062323_60550_25-min.jpg');
+        background-size: cover;
+        height: 10rem !important;
+        width: 100%;
+           background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+
+}
+.s-box4{
+ background-image: url('./photos/copy-space-organic-fruits-smoothie-min.jpg');
+        background-size: cover;
+        height: 10rem !important;
+        width: 100%;
+        background-position:  right;
+   background-blend-mode: overlay;
+        background-color: rgba(4, 24, 1, 0.767);
+        
+}
+}
+/* tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .hero-section{
+        background-image: url('./photos/smiley-mother-holding-up-baby-min.jpg');
+        background-size: cover;
+        height: 35rem !important;
+        background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+    }
+    .tab-v{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        justify-content: center !important;
+        align-items: start !important;
+      
+    }
+    .vision{
+        width: 100% !important;
+    }
+    .tab-v2{
+        width: 100%;
+    }
+    .tab-v3{
+        width: 100%;
+        margin-top: 4rem !important;
+    }
+    .tab-con{
+        display: flex;
+        flex-direction: column;
+    }
+}
