@@ -196,7 +196,21 @@ color: green;
         background-position:  right;
    background-blend-mode: overlay;
         background-color: rgba(4, 24, 1, 0.767);
-        
+}
+.about-nav{
+  background-image: url('./photos/smiley-mother-holding-up-baby-min.jpg');
+  height: 15rem;
+  background-size: cover;
+ background-blend-mode: overlay;
+ background-position:10% 30% ;
+        background-color: rgba(5, 36, 1, 0.623);
+}
+.valuesvg{
+  height: 2rem;
+}
+.team-m{
+  height: 20rem;
+  object-fit: cover;
 }
 }
 /* tablets */
@@ -230,5 +244,10 @@ color: green;
     .tab-con{
         display: flex;
         flex-direction: column;
+    }
+    .team-m2{
+      height: 30rem;
+      object-fit: cover;
+      
     }
 }
