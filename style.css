@@ -130,6 +130,22 @@ color: green;
         background-color: rgba(4, 24, 1, 0.767);
         
 }
+/* about page styling */
+.about-nav{
+  background-image: url('./photos/smiley-mother-holding-up-baby-min.jpg');
+  height: 15rem;
+  background-size: cover;
+ background-blend-mode: overlay;
+ background-position:10% 30% ;
+        background-color: rgba(5, 36, 1, 0.623);
+}
+.valuesvg{
+  height: 2rem;
+}
+.team-m{
+  height: 20rem;
+  object-fit: cover;
+}
 }
 /* mobile view */
 @media screen and (max-width:768px) {
