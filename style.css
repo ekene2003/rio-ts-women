@@ -146,6 +146,23 @@ color: green;
   height: 20rem;
   object-fit: cover;
 }
+/* service page styling */
+.why-service{
+  background-image: url('./photos/medium-shot-happy-friends-hugging-min.jpg');
+  background-size: cover;
+  height: 30rem;
+  background-position: center;
+     background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+}
+.c-h{
+  background-image: url('./photos/medium-shot-happy-friends-hugging-min.jpg');
+     background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+        background-size: cover;
+        height: 10rem;
+        background-attachment: fixed;
+}
 }
 /* mobile view */
 @media screen and (max-width:768px) {
@@ -212,6 +229,23 @@ color: green;
   height: 20rem;
   object-fit: cover;
 }
+/* service page styling */
+.why-service{
+  background-image: url('./photos/medium-shot-happy-friends-hugging-min.jpg');
+  background-size: cover;
+  height: 40rem;
+  background-position: center;
+     background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+}
+.c-h{
+  background-image: url('./photos/medium-shot-happy-friends-hugging-min.jpg');
+     background-blend-mode: overlay;
+        background-color: rgba(4, 27, 1, 0.781);
+        background-size: cover;
+        height: 20rem;
+        /* background-attachment: fixed; */
+}
 }
 /* tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -250,4 +284,15 @@ color: green;
       object-fit: cover;
       
     }
+    .why-service{
+  background-image: url('./photos/medium-shot-happy-friends-hugging.jpg');
+  background-size: cover;
+  height: 39rem;
+  background-position: center;
+     background-blend-mode: overlay;
+        background-color: rgba(5, 36, 1, 0.623);
+}
+.tab-center{
+  margin:2rem 0;
+}
 }
